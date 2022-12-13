@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
+.login>div {
+    width: 500px;
+    margin: auto;
+    border: 10px solid rgb(150, 149, 147);
+    border-radius: 50px;
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -300px;
+    outline: 5px solid orange;
+    outline-offset: -4px;
+    box-shadow: white 0px 5px 35px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 90%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #bbb;
+    margin-top: 20px;
+    outline: none;
+}
+
+.login input[type="button"] {
+    width: 95%;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    text-shadow: 1px 1px 1px black;
+    outline: none;
+}
+
+.login input[type="button"]:hover {
+    background-color: black;
+    color: white;
+}
+
+.login p {
+    font-size: 10px;
+}

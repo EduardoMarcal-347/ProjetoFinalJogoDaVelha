@@ -1,0 +1,27 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jogadores {
+    background-color: orange;
+    display: flex;
+    margin-bottom: 20px;
+    height: 135px;
+}
+
+.jogadores>div {
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.jogadores > .vez{
+    background-color: orange;
+    border: none;
+    color: white;
+}

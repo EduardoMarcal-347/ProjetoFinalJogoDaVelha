@@ -1,0 +1,49 @@
+* {
+    margin:0px;
+    box-sizing: border-box;
+}
+
+#tabuleiro {
+    width: 400px;
+    border:1px solid orange;
+    overflow: auto;
+    background-color:black;
+}
+
+.boxTabuleiro {
+    width:33.33%;
+    height:130px;
+    border:1px solid black;
+    float:left;
+    background-color:white;
+}
+
+.boxTabuleiro:hover {
+    background-color:gray;
+    cursor:pointer;
+}
+
+.imgTabuleiro {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 130px;
+}
+
+.imgXis {
+    background-image: url('../img/x.png');
+}
+
+.imgCircle {
+    background-image: url('../img/0.png');
+}
+
+.jogovelha{
+    color: orange;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.caixas{
+    height: 140px;
+    border: none;
+}
